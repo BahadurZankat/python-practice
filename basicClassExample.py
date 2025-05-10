@@ -1,6 +1,14 @@
 class Student:
-    def __init__(self,name):
+    #This constructor called as default constructor.
+    #created by python if not define explicitily
+    def __init__(self):
+        pass
+
+    #This constructor called as parameterized constructor.
+    def __init__(self,name,marks):
+        print("you are inside parametrized constructor")
         self.name=name
+        self.marks=marks
 
 s1=Student("Bahadur")
 print("Hey my name is" + s1.name)

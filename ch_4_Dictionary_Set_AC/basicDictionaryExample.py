@@ -18,3 +18,4 @@ print(type(info))  # <class 'dict'>
 #used to store key - value pairs
 #Dictionary - unordered , mutable and don't allow duplicate keys
 # Dictionary are Mutable , it means it is changeble
+#12:00
